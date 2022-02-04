@@ -1,72 +1,109 @@
-// creating an array and passing the number, questions, options, and answers
+
 let questions = [
     {
-    numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
-    options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
-    ]
-  },
+        question: 'WhatsApp concurrent model is implemented using _____ programming language.',
+        answers: {
+            optOne: 'Java',
+            optTwo: 'Node.js',
+            optThree: 'Erlang',
+            optFour: 'C'
+        },
+        correctAnswer: 'Erlang'
+    },
     {
-    numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
-    options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
-    ]
-  },
+        question: 'Which of the following is not a type of computer code related to Program Execution?',
+        answers: {
+            optOne: 'Source code',
+            optTwo: 'Hex Code',
+            optThree: 'Machine Code',
+            optFour: 'Bytecode'
+        },
+        correctAnswer: 'Hex Code'
+    },
     {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
-  },
+        question: 'The following are programming languages except?',
+        answers: {
+            optOne: 'Javascript',
+            optTwo: 'python',
+            optThree: 'C++',
+            optFour: 'CSS'
+        },
+        correctAnswer: 'CSS'
+    },
     {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
-  },
+        question: 'One of the following is not a javascript library',
+        answers: {
+            optOne: 'ReactJs',
+            optTwo: 'Angular',
+            optThree: 'Vue',
+            optFour: 'Django'
+        },
+        correctAnswer: 'Django'
+    },
     {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-  },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+        question: 'Which of the following includes Chromes V8 JavaScript Engine?',
+        answers: {
+            optOne: 'Nodejs',
+            optTwo: 'jQuery',
+            optThree: 'npm',
+            optFour: 'Java'
+           
+        },
+        correctAnswer: 'Nodejs'
+    },
+    {
+        question: 'The binary equivalent of 50 is',
+        answers: {
+            optOne: '1010110',
+            optTwo: '1100110',
+            optThree: '110010',
+            optFour: '110101'
+           
+        },
+        correctAnswer: '110010'
+    },
+    {
+        question: 'The following are tech opportunities except',
+        answers: {
+            optOne: 'Software Engineer',
+            optTwo: 'Full stack Engineer',
+            optThree: 'Backend Engineer',
+            optFour: 'Content Creator',
+           
+        },
+        correctAnswer: 'Content Creator'
+    },
+    {
+        question: 'What does JavaScript return to you if you try to access a object property that does not exist?',
+        answers: {
+            optOne: 'null',
+            optTwo: 'undefined',
+            optThree: '0',
+            optFour: 'Object not found'
+           
+        },
+        correctAnswer: 'undefined'
+    },
+    {
+        question: 'Which type of language is translated entirely to machine language before use?',
+        answers: {
+            optOne: 'Assembly',
+            optTwo: 'Interpreted',
+            optThree: 'Machine',
+            optFour: 'Compiled'
+           
+        },
+        correctAnswer: 'Compiled'
+    },
+    {
+        question: 'Which type of error occurs when a programmer misspells a word or instruction?',
+        answers: {
+            optOne: 'Runtime',
+            optTwo: 'Syntax',
+            optThree: 'System',
+            optFour: 'Semantic'
+           
+        },
+        correctAnswer: 'Syntax'
+    }
 ];
