@@ -1,3 +1,4 @@
+const remark = document.getElementById('remark');
 const startBtn = document.querySelector('#start-btn');
 const quiz = document.querySelector('#quiz');
 const instruction = document.querySelector('.instruction');
@@ -109,7 +110,26 @@ const renderResult = () => {
     quiz.style.display = 'none';
     result.style.display = 'block'
     scoreResult.innerHTML = score + ' / ' + questions.length;
+    
+
+    if ((score/questions.length)*100 < 40 ) {
+        remark.innerHTML = "Your Knowledge of Programming is Poor";
+        remark.style.color = 'red'
+      } else if ((score/questions.length)*100 < 60 ) {
+        remark.innerHTML = "Your Knowledge of Programming is fair";
+        remark.style.color = 'yellow'
+      }else if ((score/questions.length)*100 < 80 ) {
+        remark.innerHTML = "Your Knowledge of Programming is Good";
+        remark.style.color = 'blue'
+      } else {
+        remark.innerHTML = "Your Knowledge of Programming is Exellent";
+        remark.style.color = 'green'
+      }
 }
+
+
+  
+
 
 const startQuiz = () => {
     instruction.style.display = 'none';
