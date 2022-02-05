@@ -105,3 +105,4 @@ let questions = [
     correctAnswer: "Syntax",
   },
 ];
+

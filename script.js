@@ -128,9 +128,6 @@ const renderResult = () => {
 }
 
 
-  
-
-
 const startQuiz = () => {
     instruction.style.display = 'none';
     renderQuestion(loadQuestion);
